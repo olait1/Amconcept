@@ -1,0 +1,36 @@
+.cat-body{
+    position: fixed;
+    margin-right: 20%;
+}
+
+.cat{
+    background:limegreen; 
+    text-decoration:none;
+     color:white;
+      border-radius:15px;
+      font-size: 20px;
+      box-shadow:  4px 4px 4px #222;
+}
+
+.cat:hover, .cat:focus{
+  
+    box-shadow: inset 4px 4px 4px #222;
+    color:white;
+    margin-left:-2em;
+}
+.cont{
+    margin-left: 20%;
+}
+@media screen and (max-width: 800px) {
+    .cat-body{
+display: none;
+    }
+    .cont{
+   
+      margin-left: 0%!important;
+    }
+}
+a .page:hover{
+    background:#eee;
+    color:#222;
+}
